@@ -1,5 +1,5 @@
 
-colorscheme delek
+colorscheme ir_black
 filetype plugin on
 set background=dark
 set showcmd
