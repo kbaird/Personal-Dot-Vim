@@ -1,0 +1,20 @@
+
+colorscheme delek
+filetype plugin on
+set background=dark
+set showcmd
+set number
+syntax on
+
+" all tab stuff to 2
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set cinoptions=>2
+set expandtab
+set pastetoggle=<F12>
+set autoindent
+
+so ~/.vim/abbrevs.vim
+so ~/.vim/filetype.vim
+
