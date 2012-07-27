@@ -1,5 +1,5 @@
 
-colorscheme ir_black
+colorscheme vividchalk
 filetype plugin on
 set background=dark
 set showcmd
