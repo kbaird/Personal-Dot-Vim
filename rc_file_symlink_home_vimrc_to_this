@@ -18,3 +18,4 @@ set autoindent
 so ~/.vim/abbrevs.vim
 so ~/.vim/filetype.vim
 
+autocmd BufNewFile,BufReadPost,FilterReadPost,FileReadPost,Syntax * SpaceHi
