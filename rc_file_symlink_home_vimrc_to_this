@@ -19,8 +19,3 @@ so ~/.vim/abbrevs.vim
 so ~/.vim/filetype.vim
 
 autocmd BufNewFile,BufReadPost,FilterReadPost,FileReadPost,Syntax * SpaceHi
-
-autocmd FileType sml setlocal tabstop=4
-autocmd FileType sml setlocal softtabstop=4
-autocmd FileType sml setlocal shiftwidth=4
-autocmd FileType sml setlocal cinoptions=4
