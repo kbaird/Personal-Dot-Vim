@@ -28,3 +28,9 @@ autocmd BufNewFile,BufReadPost,FilterReadPost,FileReadPost,Syntax * SpaceHi
 call pathogen#infect()
 syntax enable
 filetype plugin indent on
+
+" vertically align on =
+" :Tab /=
+
+" vertically align on :, w/o adding space before :
+" :Tab /:\zs
