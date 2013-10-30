@@ -27,7 +27,7 @@ autocmd BufNewFile,BufReadPost,FilterReadPost,FileReadPost,Syntax * SpaceHi
 " enable pathogen
 call pathogen#infect()
 syntax enable
-filetype plugin indent on
+"filetype plugin indent on - turn back on for CoffeeScript, if I ever do more
 
 " vertically align on =
 " :Tab /=
