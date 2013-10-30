@@ -10,12 +10,12 @@ syntax on
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set cinoptions=>2
 set expandtab
 set pastetoggle=<F12>
 set autoindent
 set smartindent
 set cindent
+set cinoptions=(2
 
 " http://damien.lespiau.name/blog/2009/03/18/per-project-vimrc/
 set exrc            " enable per-directory .vimrc files
