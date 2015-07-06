@@ -1,4 +1,5 @@
 augroup filetypedetect
+au! BufRead,BufNewFile *.arb    setfiletype ruby
 au! BufRead,BufNewFile *.asd    setfiletype lisp
 au! BufRead,BufNewFile *.cgi    setfiletype ruby
 au! BufRead,BufNewFile *.dbk    setfiletype xml
