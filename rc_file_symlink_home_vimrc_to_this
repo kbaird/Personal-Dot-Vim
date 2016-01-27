@@ -4,6 +4,7 @@ filetype plugin on
 set background=dark
 set showcmd
 set number
+set printoptions=number:y
 syntax on
 
 " all tab stuff to 2
