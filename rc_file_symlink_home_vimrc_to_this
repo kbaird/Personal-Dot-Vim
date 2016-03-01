@@ -34,3 +34,7 @@ syntax enable
 
 " vertically align on :, w/o adding space before :
 " :Tab /:\zs
+
+" Erlang Skeletons
+let g:erl_author="Kevin Baird"
+let g:erl_company="Sqor Sports, Inc"
