@@ -16,6 +16,9 @@ set pastetoggle=<F12>
 set autoindent
 set smartindent
 
+" https://stackoverflow.com/questions/4760428/how-can-i-make-vims-j-and-gq-commands-use-one-space-after-a-period
+set nojoinspaces
+
 " http://damien.lespiau.name/blog/2009/03/18/per-project-vimrc/
 set exrc            " enable per-directory .vimrc files
 set secure          " disable unsafe commands in local .vimrc files
@@ -38,3 +41,4 @@ syntax enable
 " Erlang Skeletons
 let g:erl_author="Kevin Baird"
 let g:erl_company="Sqor Sports, Inc"
+
