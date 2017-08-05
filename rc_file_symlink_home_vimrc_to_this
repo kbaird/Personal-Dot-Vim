@@ -40,5 +40,5 @@ syntax enable
 
 " Erlang Skeletons
 let g:erl_author="Kevin Baird"
-let g:erl_company="Sqor Sports, Inc"
+let g:erl_company="Weedmaps"
 
