@@ -42,3 +42,9 @@ syntax enable
 let g:erl_author="Kevin Baird"
 let g:erl_company="Weedmaps"
 
+let g:mix_format_on_save = 1
+
+call plug#begin('~/.vim/plugged')
+Plug 'mhinz/vim-mix-format'
+call plug#end()
+
