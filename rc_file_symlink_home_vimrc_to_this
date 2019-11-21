@@ -40,7 +40,7 @@ syntax enable
 
 " Erlang Skeletons
 let g:erl_author="Kevin Baird"
-let g:erl_company="Weedmaps"
+let g:erl_company="Tubi"
 
 let g:mix_format_on_save = 1
 
