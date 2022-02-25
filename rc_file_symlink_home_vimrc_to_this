@@ -5,6 +5,7 @@ set background=dark
 set showcmd
 set number
 set printoptions=number:y
+" set spell spelllang=en_us
 syntax on
 
 " all tab stuff to 2
@@ -18,6 +19,10 @@ set smartindent
 
 " https://stackoverflow.com/questions/4760428/how-can-i-make-vims-j-and-gq-commands-use-one-space-after-a-period
 set nojoinspaces
+
+" rmove trailing whitespace
+" https://vim.fandom.com/wiki/Remove_unwanted_spaces#:~:text=One%20way%20to%20make%20sure,all%20trailing%20whitespace%20before%20saving.
+autocmd BufWritePre * :%s/\s\+$//e
 
 " http://damien.lespiau.name/blog/2009/03/18/per-project-vimrc/
 set exrc            " enable per-directory .vimrc files
